@@ -15,21 +15,8 @@ Export keys in your shell or create a `.env` file at the repo root.
 Start the viewer server:
 
 ```bash
-npm run viewer:start
+npm run viewer:build && npm run viewer:start
 ```
-
-The viewer runs on **`http://localhost:4173`** with two main views:
-
-- **Main Demo** (`http://localhost:4173`): Generate new designs on-demand and compare model outputs side-by-side
-- **Leaderboard** (`http://localhost:4173/leaderboard`): Track model win rates and battle history
-
-**Features:**
-- Auto-builds bundles on first start
-- Reads artifacts from `runs/html-design/`
-- Writes votes to `data/arena-viewer.sqlite`
-- Toggle between rendered preview and raw source
-- Demo mode: generate new designs on-demand in the UI
-- Leaderboard: model win rates and battle history
 
 **Dev mode** (live rebuilds):
 ```bash
