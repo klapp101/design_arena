@@ -1,0 +1,49 @@
+{
+  "benchmarkName": "html-design",
+  "promptPath": "./SYSTEM_PROMPT.md",
+  "outputDir": "./runs/html-design",
+  "temperature": 0.1,
+  "maxOutputTokens": 8192,
+  "models": [
+    {
+      "provider": "OpenAI",
+      "model": "gpt-5",
+      "label": "gpt-5"
+    },
+    {
+      "provider": "OpenAI",
+      "model": "gpt-5-nano",
+      "label": "gpt-5-nano"
+    },
+    {
+      "provider": "OpenAI",
+      "model": "gpt-5-mini",
+      "label": "gpt-5-mini"
+    },
+    {
+      "provider": "Anthropic",
+      "model": "claude-sonnet-4-5-20250929",
+      "label": "claude-sonnet-4.5"
+    },
+    {
+      "provider": "Anthropic",
+      "model": "claude-haiku-4-5-20251001",
+      "label": "claude-haiku-4.5"
+    },
+    {
+      "provider": "Anthropic",
+      "model": "claude-opus-4-1-20250805",
+      "label": "claude-opus-4.1"
+    },
+    {
+      "provider": "Google",
+      "model": "gemini-2.5-pro",
+      "label": "gemini-2.5-pro"
+    },
+    {
+      "provider": "Google",
+      "model": "gemini-2.5-flash",
+      "label": "gemini-2.5-flash"
+    }
+  ]
+}
